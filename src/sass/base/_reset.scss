@@ -1,0 +1,9 @@
+@import "./variables"; 
+button{
+    outline: none;
+    background:$primary_blue;
+    border: none;
+    padding: 0.5rem 2rem;
+    color: $contrast_text; 
+    text-transform: uppercase;
+}

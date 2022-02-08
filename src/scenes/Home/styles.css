@@ -1,0 +1,35 @@
+/*Common mixins for box component in our app
+We can modify 2 attributes: justify-content & align-items by giving values
+to 2 arguments $justifyContent, $alignItems in the below box() function*/
+.btn__action {
+  height: 55px;
+}
+
+.box__sideNav {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+}
+
+.box__sideNav a {
+  text-transform: uppercase;
+}
+
+.box__toolBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 0.6rem;
+}
+
+.textfield__search {
+  position: relative;
+}
+
+.icon__search {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

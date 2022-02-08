@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA;;yEAEyE;ACFzE,8DAA8D;AFE9D,AAAA,kBAAkB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,mBAAmB,CAAC;EAClB,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "styles.scss",
+        "../../sass/components/_box.scss",
+        "../../sass/components/_modal.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

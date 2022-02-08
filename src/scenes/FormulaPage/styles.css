@@ -1,0 +1,19 @@
+/*Common mixins for box component in our app
+We can modify 2 attributes: justify-content & align-items by giving values
+to 2 arguments $justifyContent, $alignItems in the below box() function*/
+/*In here we include custom styles for all modals in our app*/
+.price-formula-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-formula-text {
+  max-width: 700px;
+  border: 2px solid #ccc;
+  width: 90%;
+  height: 15rem;
+  margin: 3rem;
+}
+/*# sourceMappingURL=styles.css.map */

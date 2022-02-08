@@ -1,0 +1,15 @@
+@import "./base/layout.scss";
+@import "./base/reset";
+@import "./components/box";
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pages-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}

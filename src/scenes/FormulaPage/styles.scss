@@ -1,0 +1,16 @@
+@import "../../sass/components/_box.scss";
+@import "../../sass/components/_modal.scss";
+.price-formula-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-formula-text {
+  max-width: 700px;
+  border: 2px solid #ccc;
+  width: 90%;
+  height: 15rem;
+  margin: 3rem;
+}

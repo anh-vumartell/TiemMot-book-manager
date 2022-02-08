@@ -1,0 +1,7 @@
+/*Common mixins for box component in our app
+We can modify 2 attributes: justify-content & align-items by giving values
+to 2 arguments $justifyContent, $alignItems in the below box() function*/
+@mixin box($justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: row;
+}

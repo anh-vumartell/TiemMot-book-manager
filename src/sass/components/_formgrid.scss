@@ -1,0 +1,89 @@
+@import "../base/variables"; 
+.form-control{
+    width: 100%;
+}
+.form-grid{
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    column-gap: 3rem;
+    grid-template-rows: auto;
+    grid-template-areas: "form-logo product-name product-name product-name"
+                       "categories categories sub-categories sub-categories"
+                       "cover cover authors authors"
+                       "publishers publishers publishing publishing"
+                       "pages pages length width"
+                       "cover-price cover-price discount-price discount-price"
+                       "selling selling selling btn__modify-price"
+                       "description description description description" ;
+
+}
+.form-logo{
+    grid-area: form-logo;
+    margin-bottom: 2rem;
+    width: 100%;
+    border: 2px solid $primary_blue;
+}
+.btn__edit{
+    position: absolute;
+    top: 14.5rem;
+    left: 4.5rem;
+}
+.product-name{
+    grid-area: product-name;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.categories{
+    grid-area: categories;
+  
+}
+.sub-categories{
+    grid-area: sub-categories;
+}
+.checkbox{
+    grid-area: checkbox;
+}
+.cover{
+    grid-area: cover;
+}
+.authors{
+    grid-area: authors;
+}
+.publishers{
+    grid-area: publishers;
+   
+}
+.publishing{
+    grid-area: publishing;
+    grid-column: 3/5;
+}
+.product-link{
+    width: 550px;
+}
+.pages{
+    grid-area: pages;
+}
+.length{
+    grid-area: length;
+}
+.width{
+    grid-area: width;
+}
+.cover-price{
+    grid-area: cover-price;
+}
+.discount-price{
+    grid-area: discount-price;
+}
+.selling{
+    grid-area: selling;
+}
+.description{
+    grid-area: description;
+}
+.btn__modify-price{
+    grid-area: btn__modify-price;
+    height: 3.5rem;
+}
