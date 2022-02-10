@@ -1,4 +1,4 @@
-This project was commission by TiemMot - a Vietnamese bookstore in Finland
+This project was commissioned by TiemMot - a Vietnamese bookstore in Finland
 [Tiem Mot's website](https://fi.tiemmot.com/)
 
 ## Available Scripts
